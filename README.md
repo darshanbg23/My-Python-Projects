@@ -21,7 +21,7 @@ A Python script that uses the Twilio API to schedule and send WhatsApp messages 
 - Automated WhatsApp message delivery.
 - User-friendly input prompts and error handling.
 
-For more details, visit the [WhatsApp Message Scheduler README](whatsapp_message_scheduler/README.md).
+For more details, visit the [WhatsApp Message Scheduler README](https://github.com/darshanbg23/My-Python-Projects/blob/main/WhatsApp%20Message%20Scheduler/README.md).
 
 ---
 
