@@ -32,7 +32,7 @@ Before running this project, ensure you have the following:
 ---
 
 ## Installation and Setup
-1. Clone the repository:
+1. Clone the repository
   
 2. Install the required dependencies:
    ```bash
@@ -53,7 +53,7 @@ Before running this project, ensure you have the following:
 ---
 
 ## Usage
-1. Run the script:
+1. Run the script
 
 2. Follow the on-screen prompts to:
    - Enter the recipient's name and WhatsApp number.
