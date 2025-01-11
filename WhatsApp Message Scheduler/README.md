@@ -33,11 +33,7 @@ Before running this project, ensure you have the following:
 
 ## Installation and Setup
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/whatsapp-message-scheduler.git
-   cd whatsapp-message-scheduler
-   ```
-
+  
 2. Install the required dependencies:
    ```bash
    pip install twilio
@@ -58,9 +54,6 @@ Before running this project, ensure you have the following:
 
 ## Usage
 1. Run the script:
-   ```bash
-   python whatsapp_message_scheduler.py
-   ```
 
 2. Follow the on-screen prompts to:
    - Enter the recipient's name and WhatsApp number.
