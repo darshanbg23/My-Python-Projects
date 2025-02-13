@@ -1,0 +1,13 @@
+import PyPDF2  
+
+with open("Unsplited.pdf", "rb") as pdf_file:
+    reader = PyPDF2.PdfReader(pdf_file)
+    writer = PyPDF2.PdfWriter()  
+
+    for page_num in range(1):
+        writer.add_page(reader.pages[page_num])
+
+    with open("split_pages.pdf", "wb") as output_pdf:
+        writer.write(output_pdf)
+
+print("PDF pages have been extracted and saved as 'split_pages.pdf'.")
