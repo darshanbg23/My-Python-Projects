@@ -39,7 +39,7 @@ A collection of Python scripts that perform various operations on PDF files usin
 - **Decrypt PDF:** Removes password protection from an encrypted PDF file.
 
 Each script is organized in its respective folder within `PDF-Processing-Scripts/`.  
-For more details, visit the [PDF Processing Scripts README](https://github.com/darshanbg23/My-Python-Projects/blob/main/PDF-Processing-Scripts/README.md).
+For more details, visit the [PDF Processing Scripts README](https://github.com/darshanbg23/My-Python-Projects/blob/main/PDF-Processing-Scripts%20/README.md).
 
 ---
 
