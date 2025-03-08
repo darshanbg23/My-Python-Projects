@@ -43,11 +43,29 @@ For more details, visit the [PDF Processing Scripts README](https://github.com/d
 
 ---
 
+### 3. **Task Manager App**
+A command-line Task Manager application that allows users to add, update, mark as completed, delete, and view tasks. The tasks are stored in a `tasks.txt` file, which is automatically created when a task is added.
+
+**📂 Location:** `Task-Manager-App/`
+
+**Key Features:**
+- Add new tasks.
+- Update existing tasks.
+- Mark tasks as completed.
+- Delete tasks.
+- View the list of tasks.
+- Tasks are saved in a `tasks.txt` file for persistence.
+
+For more details, visit the [Task Manager App README](https://github.com/darshanbg23/My-Python-Projects/blob/main/Task-Manager-App/Readme.md).
+
+---
+
 ## How to Use This Repository
 1. Clone the repository to your local machine:
    ```bash
    git clone https://github.com/darshanbg23/My-Python-Projects.git
    cd My-Python-Projects
+   ```
 2. Navigate to the folder of the project you want to explore.
 3. Follow the specific README file in each project folder for installation instructions, prerequisites, and usage details.
 
@@ -75,4 +93,3 @@ This repository is licensed under the MIT License. You are free to use, modify, 
 - The projects in this repository use various libraries and APIs, with detailed acknowledgments included in each project’s README file.
 
 Thank you for visiting my repository! If you find any of these projects interesting or useful, please feel free to star the repository. 🚀
-
