@@ -37,20 +37,6 @@ This is a simple command-line-based **Task Management Application** built using 
 6. **Exit**
    - Saves tasks before exiting the program.
 
-## How to Run
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/Task-Manager-App.git
-   ```
-2. Navigate to the project folder:
-   ```bash
-   cd Task-Manager-App
-   ```
-3. Run the Python script:
-   ```bash
-   python task_manager.py
-   ```
-
 ## Example Output
 ```
 ---- WELCOME TO THE TASK MANAGEMENT APP ----
@@ -78,6 +64,9 @@ Current Tasks:
 - If `tasks.txt` does not exist, it is created automatically when a task is added.
 - Data is saved after each operation to ensure persistence.
 - The application is entirely CLI-based.
+
+## Author
+Darshan BG
 
 ## License
 This project is open-source and free to use under the MIT License.
