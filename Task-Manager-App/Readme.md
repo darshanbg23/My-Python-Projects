@@ -1,54 +1,64 @@
 # Task Manager App
 
 ## Overview
-The **Task Manager App** is a simple command-line Python application that helps users manage tasks efficiently. The app allows users to add, update, mark as completed, delete, and view tasks while ensuring data persistence using a text file.
+This is a simple command-line-based **Task Management Application** built using Python. It allows users to add, update, delete, and mark tasks as completed. Tasks are stored in a `tasks.txt` file, which is automatically created when a new task is added.
 
 ## Features
-✅ Add new tasks  
-✅ Update existing tasks  
-✅ Mark tasks as completed  
-✅ Delete tasks  
-✅ View all tasks with status indicators (✅ for completed, ❌ for pending)  
-✅ Tasks are stored in `tasks.txt` for persistence, even after the program exits  
+- Add new tasks
+- Update existing tasks
+- Mark tasks as completed
+- Delete tasks
+- View all tasks with their statuses (Pending/Completed)
+- Data is saved automatically in `tasks.txt`
 
 ## How It Works
-1. When you first run the program, it checks if `tasks.txt` exists. If not, it will be created automatically.
-2. Users can add tasks, and they will be saved instantly in `tasks.txt`.
-3. The program provides options to update, delete, mark tasks as completed, and view all tasks.
-4. Tasks remain saved even after closing and reopening the application.
+### Task Storage
+- Tasks are stored in a file named `tasks.txt`.
+- Each task is stored in the format: `Task Description | Status`.
+- Status can be **Pending** or **Completed**.
 
-## Installation & Usage
-### Prerequisites
-- Python 3.x installed on your system
+### User Actions
+1. **Adding a Task**
+   - Users can add multiple tasks at once during startup.
+   - Tasks can be added later via the menu option.
 
-### Steps to Run the App
-1. **Clone the Repository**
-   ```sh
+2. **Updating a Task**
+   - Users can update the description of an existing task.
+
+3. **Marking a Task as Completed**
+   - Users can mark a specific task as completed.
+
+4. **Deleting a Task**
+   - Users can remove a task from the list.
+
+5. **Viewing Tasks**
+   - Displays all tasks with their current statuses.
+
+6. **Exit**
+   - Saves tasks before exiting the program.
+
+## How to Run
+1. Clone the repository:
+   ```bash
    git clone https://github.com/yourusername/Task-Manager-App.git
+   ```
+2. Navigate to the project folder:
+   ```bash
    cd Task-Manager-App
    ```
-
-2. **Run the Program**
-   ```sh
+3. Run the Python script:
+   ```bash
    python task_manager.py
    ```
-
-3. **Follow the On-Screen Instructions**
-   - Enter tasks when prompted.
-   - Choose options to update, mark as completed, delete, or view tasks.
-
-## Notes
-1. The `tasks.txt` file is **automatically created** when you add a task.
-2. If you choose to reset tasks, the existing file content will be cleared.
-3. The app runs in a loop until you choose to exit.
 
 ## Example Output
 ```
 ---- WELCOME TO THE TASK MANAGEMENT APP ----
-Enter how many tasks you want to add: 3
-Enter task: HTML Part
-Enter task: CSS Part
-Enter task: JS Part
+Do you want to clear existing tasks? (yes/no): no
+
+Enter how many tasks you want to add: 2
+Enter task: Complete Python project
+Enter task: Submit assignment
 
 Options:
 1 - Add Task
@@ -60,11 +70,14 @@ Options:
 Your choice: 5
 
 Current Tasks:
-1. HTML Part [❌]
-2. CSS Part [❌]
-3. JS Part [❌]
+1. Complete Python project [❌]
+2. Submit assignment [❌]
 ```
 
-## License
-This project is open-source and available under the [MIT License](LICENSE).
+## Notes
+- If `tasks.txt` does not exist, it is created automatically when a task is added.
+- Data is saved after each operation to ensure persistence.
+- The application is entirely CLI-based.
 
+## License
+This project is open-source and free to use under the MIT License.
